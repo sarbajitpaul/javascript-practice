@@ -16,11 +16,22 @@ body{
     margin: 0px;
 }
 
+.ui-box p{
+    font-weight: bold;
+}
+
 .ui-close{
+    background-color: #EFD45B;
     border-left: 4px solid #EFD45B;
     border-bottom: 4px solid #EFD45B;
     padding: 4px;
     margin: 0px;
     cursor: pointer;
     float: right;
+    color: #85783C;
+}
+
+.ui-close:hover{
+    background-color: #85783C;
+    color: #FBE47E;
 }
